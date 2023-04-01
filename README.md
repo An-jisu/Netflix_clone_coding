@@ -38,5 +38,9 @@
 - justify-content: 주로 영역에 적용! 가로축 기준으로 정렬/ 글자를 감싸고 있는 그 영역 자체를! 주로 부모 요소에 써줌 <br> 
 - align-items: 주로 영역에 적용! 수직축 기준으로 아이템들이 정렬/ 부모 요소의 자식들 전체를 묶어서 정렬- 주로 부모 요소에 써줌!<br>
 
+🔶 main 부분에서 영상 삽입이 안되는 문제<br>
+![image](https://user-images.githubusercontent.com/70849122/229295908-51cdc1d8-12b0-4a75-89ef-d55dd46e0d7d.png) <br>
+-> css에서 영상의 width와 height를 지정해줌으로써, 영상이 나타남! <br>
+
 ## <br><br>✔ JS
 ### 1️⃣ main.js 
