@@ -180,77 +180,180 @@ header{
 }
 
 /*1번째 본문*/
-.main1{
+.main{
     padding: 72px 0px;
     background-color: black;
 }
 
-.main1_content{
+.main_content{
     margin: 75px 0px;
     text-align: left;
     display: flex;
     align-items: center;
-}
-
-.main1_l{
-    align-items: center;
-    margin: 40px 200px;
-}
-
-.main1_l>h2{
-    color: white;
-    font-weight: 700;
-    font-size: 50px;
-}
-
-.main1_l>p{
-    margin: 16px 0px;
-    color: white;
-    font-size: 25px;
-    font-weight: 400;
-}
-
-.main1_video >video{
-    display: inline;
-    width:300;
-    height:200;
-}
-
-/*2번째 본문*/
-.main2{
-    padding: 72px 0px;
-    background-color: black;
-}
-
-.main2_content{
     margin: 75px 200px;
-    text-align: left;
-    display: flex;
-    align-items: center;
 }
 
-.main2_l{
+.main_l{
     align-items: center;
-    margin: 40px 200px;
+    margin: 0px 70px;
 }
 
-.main2_l>h2{
+.main_l>h2{
     color: white;
     font-weight: 700;
     font-size: 50px;
+    margin: 30px 0px;
 }
 
-.main2_l>p{
-    margin: 16px 0px;
+.main_l>p{
+    margin: 5px 0px;
     color: white;
     font-size: 25px;
     font-weight: 400;
 }
 
-.main2_video >video{
+.main_video >video{
     display: inline;
     width:300;
     height:200;
 }
 
-/*3번째 본문*/
+.main_picture{
+    padding: 0px 6px;
+    width: 100%;
+    height:100%;
+}
+
+/*faq블록*/
+.faq{
+    background-color: black;
+    padding: 72px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq_content{
+    margin: 0px 32px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.faq_title{
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+.faq_questions{
+    margin-top: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq_questions>ul{
+    justify-content: center;
+    align-items: center;
+}
+
+.faq_questions>ul>li{
+    margin-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.faq_questions>ul>li>button{
+    width:900px;
+    height:84px;
+    background-color: #444444;
+    display: flex;
+}
+
+.faq_questions>ul>li>button>span{
+    padding: 24px;
+    color:white;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+
+
+/*footer*/
+footer{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer{
+    padding: 60px 0px;
+    margin: 0px 200px;
+    font-size: 1.1rem;
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.f1{
+    padding: 0.75rem;
+}
+
+.f1>a{
+    color:rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+}
+
+.f2{
+    padding: 0.75rem 0px;
+}
+
+.f2>div>ul{
+    padding-left: 12px;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr) );
+    grid-gap: var(--grid-layout-gap);
+}
+
+.f2>div>ul>li{
+    list-style: none;
+}
+
+.f2>div>ul>li>a{
+    color:rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+}
+
+.f3{
+    padding: 0.75rem 0px;
+}
+
+.netflix{
+    padding: 0.75rem 0px;
+}
+
+.f4{
+    padding: 0.75rem 0px;
+}
+
+.f4>div>a{
+    color:rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+.f3{
+    padding: 0.75rem 0px;
+}
+
+
+.f4{
+    padding: 0.75rem 0px;
+}
