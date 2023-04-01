@@ -28,6 +28,11 @@
 -> 위와 같이 block형태로 나오는 dispay를 해결하기 위해서....... 로그인 버튼과 언어선택 select태그를 모두 감싸는 div에 display: flex 속성을 넣어주었더니 해결되었다. <br>
 ### 🔺 왜 inline으로 하면 안되는가? 원래 되야하는 거 아님?????
 
+🔶 문서 수평으로 정렬할 때!! <br>
+![image](https://user-images.githubusercontent.com/70849122/229290472-f2037e19-31cc-435a-b614-f16edbc8b4b4.png) <br>
+-> 부모 요소에 이렇게 text-align: center 해줬더니 바로 해결.... <br>
+-> 이거 자꾸 해결이 안되어서 애 먹었다..
+
 
 ## <br><br>✔ JS
 ### 1️⃣ main.js 
