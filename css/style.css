@@ -1,3 +1,7 @@
+.division-line{
+    border-top: 12px solid #444444;
+}
+
 /*첫번째 블록-하얀색 상단 부분*/
 header{
     align-items: center; 
@@ -49,11 +53,11 @@ header{
 /*첫번째 블록-배경 부분*/
 .background{
     background-image: url('img/background.jpg');
-    background-size: cover;
     align-items: center; 
     justify-content: center;
     display: block;
     position: relative;
+    background-color: #d4e2b7;
 }
 
 .logo_header{
@@ -75,6 +79,8 @@ header{
 
 .logo_lang{
     margin: 0px 4px;
+    border-radius: 0.5rem;
+    height:15px;
 }
 
 .login_button{
@@ -93,6 +99,158 @@ header{
 .background>img{
     display: flex;
     position: static;
-    display: flex;
+    display: block;
     width: 100%;
 }
+
+.header_content{
+    justify-content: center;
+    align-items: center;
+    padding:120px 32px;
+    text-align: center;
+}
+
+.h_content_1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.h_content_1 > h1{
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.h_content_1 > p{
+    margin-top: 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+
+.h_content_2{
+    margin: 24px;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    vertical-align:middle;
+}
+
+.h_content_2 > h3{
+    margin: 24px;
+    padding: 24px;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.h_content_email{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.h_content_email > input{
+    color: rgba(255,255,255,0.7);
+    background: transparent;
+    outline:rgba(255,255,255,0.7);
+    width : 440px;
+    height : 50px;
+    font-size : 16px;
+    margin: 6px;
+}
+
+.h_content_email > input:focus{
+    outline:2px solid white;
+}
+
+.h_content_email > button{
+    border: 1.6px;
+    margin: 8px;
+    color: white;
+    background-color: #e60202;
+    border-radius: 0.5rem;
+    font-size: 26px;
+    padding: 12px 30px;
+    border: none;
+}
+
+/*1번째 본문*/
+.main1{
+    padding: 72px 0px;
+    background-color: black;
+}
+
+.main1_content{
+    margin: 75px 0px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.main1_l{
+    align-items: center;
+    margin: 40px 200px;
+}
+
+.main1_l>h2{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.main1_l>p{
+    margin: 16px 0px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.main1_video >video{
+    display: inline;
+    width:300;
+    height:200;
+}
+
+/*2번째 본문*/
+.main2{
+    padding: 72px 0px;
+    background-color: black;
+}
+
+.main2_content{
+    margin: 75px 200px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.main2_l{
+    align-items: center;
+    margin: 40px 200px;
+}
+
+.main2_l>h2{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.main2_l>p{
+    margin: 16px 0px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.main2_video >video{
+    display: inline;
+    width:300;
+    height:200;
+}
+
+/*3번째 본문*/
