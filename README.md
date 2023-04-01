@@ -33,6 +33,10 @@
 -> 부모 요소에 이렇게 text-align: center 해줬더니 바로 해결.... <br>
 -> 이거 자꾸 해결이 안되어서 애 먹었다..
 
+🔶 text-align, justify-content, align-items 차이 <br>
+- text-align: 말 그대로, 텍스트 문자만을 가운데로 정렬<br>
+- justify-content: 주로 영역에 적용! 가로축 기준으로 정렬/ 글자를 감싸고 있는 그 영역 자체를! 주로 부모 요소에 써줌 <br> 
+- align-items: 주로 영역에 적용! 수직축 기준으로 아이템들이 정렬/ 부모 요소의 자식들 전체를 묶어서 정렬- 주로 부모 요소에 써줌!<br>
 
 ## <br><br>✔ JS
 ### 1️⃣ main.js 
