@@ -55,4 +55,10 @@
 -> 질문 블록에 대한 기본적인 구조는 완성하였다. 질문 블록에서 질문과 +가 세로 가운데 정렬로 오게하는 것을 해결하지 못 했다....
 
 
-
+2. <br>
+![image](https://user-images.githubusercontent.com/70849122/229994219-60c7e245-08f8-4d9c-a454-93a005b74a34.png) <br>
+-> 메인페이지 풋터에서 그리드를 적용하는 것이 어려웠다. grid 개념을 잘 몰랐기 때문에... <br>
+https://velog.io/@asj1966/HTMLCSSJS-CSS-GRID <br>
+-> 따라서 위와 같이 일단 grid에 대한 학습을 하였다. <br>
+![image](https://user-images.githubusercontent.com/70849122/229994388-6b7448b7-add3-4eed-b31d-9ff684723c18.png) <br> 
+-> ul을 부모 요소, 즉 컨테이너라 생각하고, li를 각각의 아이템이라 생각하여, 컨테이너에 위와 같이 적용해주었다. 열은 3개를 각 1:1:1의 비율로 지정해주었고, 행은 1:1:1:1의 비율로 4개를 지정해주었다. <br>
