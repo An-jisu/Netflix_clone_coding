@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+/*background*/
+.background{
+    z-index: -1;
+    background: transparent;
+    background-color: black;
+    position:absolute;
+    overflow: hidden;
+    scale: 1.03;
+}
+
+.background>img{
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0.48;
+}
+
+/*header*/
+header{
+    padding: 24px;
+    width: 100%;
+}
+
+header>a{
+    margin: 38px;
+}
+
+header>a>img{
+    width: 186px;
+    height: 60px;
+}
+
+.login_button{
+    color:red;
+    text-decoration: none;
+    margin: 0 44px;
+    float: right;
+    font-size: 24px;
+}
+
+.login_button:hover{
+    text-decoration: underline;
+}
+
+/*login_body*/
+.login_body{
+    margin: 0px 353.888px;
+    padding: 0px 64.313px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login_top{
+    padding:40px;
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.login_content{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.login_content>h1{
+    margin:0 0 20px 0;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.login_content>p{
+    margin:16px 0;
+}
+
+.choice{
+    margin-left: 25px;
+    display: block;
+}
+
+.info>div>input{
+    width: 380px;
+    padding: 10px 11px;
+    margin-bottom:10px
+}
+
+.info>div>input::placeholder{
+    font-size:16px;
+}
+
+.choice>label{
+    font-size: 16px;
+}
+
+.info{
+    display: block;
+}
+
+.info>p{
+    margin: 16px 0;
+}
+
+.login_content>button{
+    color: white;
+    background-color: rgb(0,128,255);
+    padding:10px 16px;
+    margin-top:20px;
+    margin-bottom:30px;
+    border:0;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.login_content>button:hover{
+    background-color: #2d96ff;
+}
+
+/*login 하단*/
+.login_bottom{
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.login_bottom>p{
+    margin:16px 0;
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    width: 450px;
+}
+
+
+
+/*footer*/
+footer{
+    background: rgba(0,0,0,.75);
+    margin: 0;
+    opacity: 0.9;
+    padding-bottom:20px;
+}
+
+.footer{
+    padding:30px 0;
+    margin: 0 140px;
+}
+
+.f1{
+    color:rgba(255, 255, 255, 0.7);
+    margin-bottom: 30px;
+    font: 16px;
+}
+
+.f1>a{
+    color:rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+}
+
+.f2{
+    display: grid;
+    margin-bottom: 30px;
+    padding: 0px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+    row-gap: 13px;
+}
+
+.f2>li{
+    list-style: none;
+}
+
+.f2>li>a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.7);
+    font: 16px;
+}
+
+.f3{
+    padding: 0.75rem 0px;
+}
+
+.f4{
+    padding: 0.75rem 0px;
+}
+
+.f4>div{
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.f4>div>a{
+    color:rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 0.9rem;
+}

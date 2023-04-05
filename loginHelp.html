@@ -4,59 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width", initial-scale="1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css">
 
-    <title>Netflix login</title>
+    <title>Netflix loginHelp    </title>
 </head>
 <body>
     <!--background-->
-    <div class="background"><img class="concord-img vlv-creative" src="https://assets.nflxext.com/ffe/siteui/vlv3/2e884ce2-da1c-4501-ab9a-10c534d30975/fcdbcd90-f133-4081-ac82-34918f18aabf/KR-ko-20230327-popsignuptwoweeks-perspective_alpha_website_small.jpg" srcset="https://assets.nflxext.com/ffe/siteui/vlv3/2e884ce2-da1c-4501-ab9a-10c534d30975/fcdbcd90-f133-4081-ac82-34918f18aabf/KR-ko-20230327-popsignuptwoweeks-perspective_alpha_website_small.jpg 1000w, https://assets.nflxext.com/ffe/siteui/vlv3/2e884ce2-da1c-4501-ab9a-10c534d30975/fcdbcd90-f133-4081-ac82-34918f18aabf/KR-ko-20230327-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w, https://assets.nflxext.com/ffe/siteui/vlv3/2e884ce2-da1c-4501-ab9a-10c534d30975/fcdbcd90-f133-4081-ac82-34918f18aabf/KR-ko-20230327-popsignuptwoweeks-perspective_alpha_website_large.jpg 1800w" alt=""></div>
 
     <!--header-->
     <header>
         <a href="main.html"><img src="img/logo.png"></a>
+        <a href="https://www.netflix.com/kr/login" class="login_button">로그인</a>
     </header>
 
     <!--login-->
     <div class="login_body">
-        <div class="login">
-            <!--login 상단-->
-            <div class="login_top">
-                <h1>로그인</h1>
-                <form>
-                    <!--이메일 또는 전번-->
-                    <div class="id">
-                        <input type="text">
-                        <label>이메일 주소 또는 전화번호</label>
+        <!--login 하얀박스-->
+        <div class="login_top">
+            <div class="login_content">
+                <h1>이메일/비밀번호를<br> 잊으셨나요?</h1>
+                <p>비밀번호 재설정 안내를 받을 방법을 선택하세요.</p>
+                <div class="choice">
+                    <div>
+                        <input type="radio">
+                        <label>이메일 주소</label>
                     </div>
-                    <!--비밀번호-->
-                    <div class="pw">
-                        <input type="text">
-                        <label>비밀번호</label>
+                    <div>
+                        <input type="radio">
+                        <label>문자 메시지(SMS)</label>
                     </div>
-                     <!--로그인버튼-->
-                    <button class="login_button">로그인</button>
-                     <!--로그인 정보저장 탭-->
-                    <div class="login_info">
-                        <div>
-                            <input type="checkbox">
-                            <label>로그인 정보 저장</label>
-                        </div>
-                        <div><a href="/LoginHelp">도움이 필요하신가요?</a></div>
-                    </div>
-                </form>
-            </div>
-
-            <!--login 하단-->
-            <div class="login_bottom">
-                <div>Netflix 회원이 아닌가요?
-                    <a href="https://www.netflix.com/kr/">지금 가입하세요.</a>
                 </div>
-                <div><p>이 페이지는 Google reCAPTCHA의 보호를 받아<br>
-                    사용자가 로봇이 아님을 확인합니다.
-                    <button>자세히 알아보기.</button>
-                </p></div>
+                <div class="info">
+                    <p>비밀번호 재설정 안내 이메일을 보내드리겠습니다.</p>
+                    <div><input type="email" placeholder="name@example.com"></div>
+                </div>
+                <button>이메일로 받기</button>
             </div>
+        </div>
+        <!--login 하단-->
+        <div class="login_bottom">
+            <p>이 페이지는 Google reCAPTCHA의 보호를 받아 사용자가<br>
+                로봇이 아님을 확인합니다.</p>
+            <div></div>
         </div>
     </div>
 
