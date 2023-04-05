@@ -43,7 +43,7 @@
 -> css에서 영상의 width와 height를 지정해줌으로써, 영상이 나타남! <br><br><br>
 
 ### 2️⃣ style1.css (login.html)<br>
-🔶 요소의 위치 조정
+🔶 요소의 위치 조정<br>
 ![image](https://user-images.githubusercontent.com/70849122/229998468-49896d6f-5279-4a75-8731-bea5ae9169e2.png) <br>
 -> 배경 이미지 위로 넷플릭스 로고가 뜨길 원했는데, 배경 이미지 아래로 배치 되는 것이다. <br>
 ![image](https://user-images.githubusercontent.com/70849122/229999356-eafce6cc-f05e-4402-ad80-01b54560f88e.png) <br>
