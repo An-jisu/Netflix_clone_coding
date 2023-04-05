@@ -50,6 +50,13 @@
 -> 이를 해결하기 위해 position: absolute를 써주었더니, 제대로 실행이 되었다. 부모 요소인 body를 기준으로 배치되는 것이므로 처음에 로고가 배치되는 것이다. <br>
 position: absolute- 부모 요소를 기준으로 위치 결정<br><br>
 
+🔶 요소 위에 다른 요소 배치 <br>
+![image](https://user-images.githubusercontent.com/70849122/230010593-19a4b2a7-5e10-480d-8fad-6def4d07b418.png) <br>
+-> 위와 같이 ipnut창 위에 label이 뜨게끔 처리하고 싶었다. <br>
+![image](https://user-images.githubusercontent.com/70849122/230010859-3a36f7c4-f566-45c7-ae39-1f5d974e98c7.png)
+![image](https://user-images.githubusercontent.com/70849122/230010907-c1cfade9-1b5e-470f-81eb-707858e796f3.png) <br>
+-> 위와 같이 부모요소에 relative, label요소에 absolute를 position시켜줌으로써 실행시킬 수 있다.<br><br>
+
 
 
 
