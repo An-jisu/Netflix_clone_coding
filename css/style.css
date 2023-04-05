@@ -2,6 +2,10 @@
     border-top: 12px solid #444444;
 }
 
+body{
+    margin: 0;
+}
+
 /*첫번째 블록-하얀색 상단 부분*/
 header{
     align-items: center; 
@@ -236,8 +240,7 @@ header{
     margin: 0px 32px;
     justify-content: center;
     align-items: center;
-    display: flex;
-
+    display: block;
 }
 
 .faq_title{
@@ -251,34 +254,55 @@ header{
     margin-top: 24px;
     justify-content: center;
     align-items: center;
+    margin: 30px;
+    display: flex;
 }
 
 .faq_questions>ul{
     justify-content: center;
     align-items: center;
+    display: block;
+    margin:0px;
 }
 
 .faq_questions>ul>li{
-    margin-bottom: 8px;
-    justify-content: center;
+    background-color: #353535;
+    justify-content: space-between;
     align-items: center;
-    display: flex;
+    margin-bottom:8px;
+    font-size: 24px;
+    font-weight: 400;
+    padding:24px;
+    width: 76rem;
+    height: 3.5rem;
+    vertical-align: middle;
 }
 
-.faq_questions>ul>li>button{
-    width:900px;
-    height:84px;
+.faq_questions>ul>li:hover{
     background-color: #444444;
-    display: flex;
 }
 
-.faq_questions>ul>li>button>span{
-    padding: 24px;
+.question_content{
     color:white;
-    font-size: 25px;
-    font-weight: 200;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: 300;
+    float: left;
 }
 
+.plus{
+    float:right;
+}
+
+.plus>span{
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    font-weight: 300;
+    object-fit: cover;
+}
 
 
 /*footer*/
@@ -310,12 +334,14 @@ footer{
 .f2>div>ul{
     padding-left: 12px;
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr) );
-    grid-gap: var(--grid-layout-gap);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 13px;
 }
 
 .f2>div>ul>li{
     list-style: none;
+    
 }
 
 .f2>div>ul>li>a{
@@ -339,21 +365,4 @@ footer{
     color:rgba(255, 255, 255, 0.7);
     text-decoration: underline;
     font-size: 0.9rem;
-}
-
-
-
-
-
-
-
-
-
-.f3{
-    padding: 0.75rem 0px;
-}
-
-
-.f4{
-    padding: 0.75rem 0px;
 }
